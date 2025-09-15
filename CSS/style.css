@@ -177,6 +177,8 @@ header a:hover {
 /* Responsive */
 
 @media (max-width: 451px) {
+
+
     header {
         width: 100%;
         display: flex;
@@ -185,9 +187,11 @@ header a:hover {
         padding-left: 17px;
     }
 
-    body {
-        max-width: 100%;
+    .container .thumb .thumb-item {
+        position: absolute;
+        bottom: 20px;
     }
+
 
 
     .container .list .list-item .title {
